@@ -1,0 +1,571 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		4B8B6F1D2CFF800000AC82FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B8B6EFF2CFF7FFC00AC82FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B8B6F062CFF7FFC00AC82FB;
+			remoteInfo = CenturionInternal;
+		};
+		4B8B6F272CFF800000AC82FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B8B6EFF2CFF7FFC00AC82FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B8B6F062CFF7FFC00AC82FB;
+			remoteInfo = CenturionInternal;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4B8B6F072CFF7FFC00AC82FB /* CenturionInternal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CenturionInternal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B8B6F1C2CFF800000AC82FB /* CenturionInternalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CenturionInternalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B8B6F262CFF800000AC82FB /* CenturionInternalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CenturionInternalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		4B8B6F812D00E8B600AC82FB /* Exceptions for "CenturionInternal" folder in "CenturionInternal" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Models/Boat.swift,
+				Views/ContentView.swift,
+			);
+			target = 4B8B6F062CFF7FFC00AC82FB /* CenturionInternal */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		4B8B6F092CFF7FFC00AC82FB /* CenturionInternal */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				4B8B6F812D00E8B600AC82FB /* Exceptions for "CenturionInternal" folder in "CenturionInternal" target */,
+			);
+			path = CenturionInternal;
+			sourceTree = "<group>";
+		};
+		4B8B6F1F2CFF800000AC82FB /* CenturionInternalTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CenturionInternalTests;
+			sourceTree = "<group>";
+		};
+		4B8B6F292CFF800000AC82FB /* CenturionInternalUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CenturionInternalUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4B8B6F042CFF7FFC00AC82FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B8B6F192CFF800000AC82FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B8B6F232CFF800000AC82FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B8B6EFE2CFF7FFC00AC82FB = {
+			isa = PBXGroup;
+			children = (
+				4B8B6F092CFF7FFC00AC82FB /* CenturionInternal */,
+				4B8B6F1F2CFF800000AC82FB /* CenturionInternalTests */,
+				4B8B6F292CFF800000AC82FB /* CenturionInternalUITests */,
+				4B8B6F082CFF7FFC00AC82FB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4B8B6F082CFF7FFC00AC82FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4B8B6F072CFF7FFC00AC82FB /* CenturionInternal.app */,
+				4B8B6F1C2CFF800000AC82FB /* CenturionInternalTests.xctest */,
+				4B8B6F262CFF800000AC82FB /* CenturionInternalUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4B8B6F062CFF7FFC00AC82FB /* CenturionInternal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B8B6F302CFF800000AC82FB /* Build configuration list for PBXNativeTarget "CenturionInternal" */;
+			buildPhases = (
+				4B8B6F032CFF7FFC00AC82FB /* Sources */,
+				4B8B6F042CFF7FFC00AC82FB /* Frameworks */,
+				4B8B6F052CFF7FFC00AC82FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				4B8B6F092CFF7FFC00AC82FB /* CenturionInternal */,
+			);
+			name = CenturionInternal;
+			packageProductDependencies = (
+			);
+			productName = CenturionInternal;
+			productReference = 4B8B6F072CFF7FFC00AC82FB /* CenturionInternal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4B8B6F1B2CFF800000AC82FB /* CenturionInternalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B8B6F332CFF800000AC82FB /* Build configuration list for PBXNativeTarget "CenturionInternalTests" */;
+			buildPhases = (
+				4B8B6F182CFF800000AC82FB /* Sources */,
+				4B8B6F192CFF800000AC82FB /* Frameworks */,
+				4B8B6F1A2CFF800000AC82FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B8B6F1E2CFF800000AC82FB /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				4B8B6F1F2CFF800000AC82FB /* CenturionInternalTests */,
+			);
+			name = CenturionInternalTests;
+			packageProductDependencies = (
+			);
+			productName = CenturionInternalTests;
+			productReference = 4B8B6F1C2CFF800000AC82FB /* CenturionInternalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4B8B6F252CFF800000AC82FB /* CenturionInternalUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B8B6F362CFF800000AC82FB /* Build configuration list for PBXNativeTarget "CenturionInternalUITests" */;
+			buildPhases = (
+				4B8B6F222CFF800000AC82FB /* Sources */,
+				4B8B6F232CFF800000AC82FB /* Frameworks */,
+				4B8B6F242CFF800000AC82FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B8B6F282CFF800000AC82FB /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				4B8B6F292CFF800000AC82FB /* CenturionInternalUITests */,
+			);
+			name = CenturionInternalUITests;
+			packageProductDependencies = (
+			);
+			productName = CenturionInternalUITests;
+			productReference = 4B8B6F262CFF800000AC82FB /* CenturionInternalUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4B8B6EFF2CFF7FFC00AC82FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					4B8B6F062CFF7FFC00AC82FB = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					4B8B6F1B2CFF800000AC82FB = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 4B8B6F062CFF7FFC00AC82FB;
+					};
+					4B8B6F252CFF800000AC82FB = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 4B8B6F062CFF7FFC00AC82FB;
+					};
+				};
+			};
+			buildConfigurationList = 4B8B6F022CFF7FFC00AC82FB /* Build configuration list for PBXProject "CenturionInternal" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4B8B6EFE2CFF7FFC00AC82FB;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 4B8B6F082CFF7FFC00AC82FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4B8B6F062CFF7FFC00AC82FB /* CenturionInternal */,
+				4B8B6F1B2CFF800000AC82FB /* CenturionInternalTests */,
+				4B8B6F252CFF800000AC82FB /* CenturionInternalUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4B8B6F052CFF7FFC00AC82FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B8B6F1A2CFF800000AC82FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B8B6F242CFF800000AC82FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4B8B6F032CFF7FFC00AC82FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B8B6F182CFF800000AC82FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B8B6F222CFF800000AC82FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4B8B6F1E2CFF800000AC82FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B8B6F062CFF7FFC00AC82FB /* CenturionInternal */;
+			targetProxy = 4B8B6F1D2CFF800000AC82FB /* PBXContainerItemProxy */;
+		};
+		4B8B6F282CFF800000AC82FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B8B6F062CFF7FFC00AC82FB /* CenturionInternal */;
+			targetProxy = 4B8B6F272CFF800000AC82FB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4B8B6F2E2CFF800000AC82FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4B8B6F2F2CFF800000AC82FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4B8B6F312CFF800000AC82FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CenturionInternal/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Myboi.CenturionInternal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4B8B6F322CFF800000AC82FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CenturionInternal/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Myboi.CenturionInternal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4B8B6F342CFF800000AC82FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Myboi.CenturionInternalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CenturionInternal.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CenturionInternal";
+			};
+			name = Debug;
+		};
+		4B8B6F352CFF800000AC82FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Myboi.CenturionInternalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CenturionInternal.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CenturionInternal";
+			};
+			name = Release;
+		};
+		4B8B6F372CFF800000AC82FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Myboi.CenturionInternalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CenturionInternal;
+			};
+			name = Debug;
+		};
+		4B8B6F382CFF800000AC82FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Myboi.CenturionInternalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CenturionInternal;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B8B6F022CFF7FFC00AC82FB /* Build configuration list for PBXProject "CenturionInternal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B8B6F2E2CFF800000AC82FB /* Debug */,
+				4B8B6F2F2CFF800000AC82FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B8B6F302CFF800000AC82FB /* Build configuration list for PBXNativeTarget "CenturionInternal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B8B6F312CFF800000AC82FB /* Debug */,
+				4B8B6F322CFF800000AC82FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B8B6F332CFF800000AC82FB /* Build configuration list for PBXNativeTarget "CenturionInternalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B8B6F342CFF800000AC82FB /* Debug */,
+				4B8B6F352CFF800000AC82FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B8B6F362CFF800000AC82FB /* Build configuration list for PBXNativeTarget "CenturionInternalUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B8B6F372CFF800000AC82FB /* Debug */,
+				4B8B6F382CFF800000AC82FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4B8B6EFF2CFF7FFC00AC82FB /* Project object */;
+}
